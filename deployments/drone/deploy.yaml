@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: drone-depl
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: drone
+  template:
+    metadata:
+      labels:
+        app: drone
+    spec:
+      containers:
+      - name: drone-cnt
+        image: luciantin/flask-server:1.0.0
+        ports:
+        - containerPort: 5000

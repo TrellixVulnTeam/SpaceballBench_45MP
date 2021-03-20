@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  flask_tst:
+    build:
+      context: ./
+    ports:
+      - 5000:5000
+#  flask_tst_2:
+#    build:
+#      context: ./
+#    ports:
+#      - 5001:5001

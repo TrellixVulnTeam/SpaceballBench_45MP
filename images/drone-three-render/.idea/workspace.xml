@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4079607a-c775-4b09-8ce1-62bb8194cccf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/http-server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net-tcp-server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/52.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/53.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/54.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/59.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/62.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/63.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/64.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/65.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/67.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/68.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/69.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/70.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/71.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/72.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/73.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/74.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/76.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/77.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/78.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/79.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/82.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/85.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/86.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/87.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/88.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/89.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/91.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/92.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/93.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/94.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/95.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/96.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/97.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/98.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/99.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flask_rx_tx_docker/docker-compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flask_rx_tx_docker/flask_rx/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flask_rx_tx_docker/flask_rx/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flask_rx_tx_docker/flask_rx/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flask_rx_tx_docker/flask_tx/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flask_rx_tx_docker/flask_tx/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flask_rx_tx_docker/flask_tx/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flask_tst/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flask_tst/docker-compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flask_tst/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flask_tst/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../redis_tst/data/dump.rdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../redis_tst/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../redis_tst/redis.conf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1q0puU0M808HLpSXIrL7R3vGSwx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ts.external.directory.path" value="C:\Users\Tin\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\203.7148.54\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tin\Desktop\Repos\SpaceballBench\images\drone-three-render" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4079607a-c775-4b09-8ce1-62bb8194cccf" name="Default Changelist" comment="" />
+      <created>1616226588373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616226588373</updated>
+      <workItem from="1616226589590" duration="6988000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

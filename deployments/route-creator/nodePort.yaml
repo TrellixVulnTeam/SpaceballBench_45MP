@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: route-creator-port
+spec:
+  type: NodePort
+  ports:
+    - port: 5000
+  selector:
+    app: route-creator
