@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND noninteractive
 WORKDIR /home
 
 COPY package*.json ./
-COPY server.js ./
+COPY ../server.js ./
 COPY start.sh  ./
 
 # Update
