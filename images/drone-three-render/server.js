@@ -5,9 +5,10 @@ import http from 'http';
 const drone = new vDroneHandler(600, 600);
 const FPS = 2;
 let ID = -1;
+const DEBUG = false;
 
 const VALID_PATHS = {
-    "GET": ["/api/sensors", "/stream/mjpeg", "/stream/jpg"],
+    "GET": ["/","/api/sensors", "/stream/mjpeg", "/stream/jpg"],
     "PUT": ["/api/drone/orientation/x", "/api/drone/orientation/y", "/api/drone/orientation/z",
         "/api/drone/position/x", "/api/drone/position/y", "/api/drone/position/z",
         "/api/drone/speed", "/api/processing", "/api/id", "/api/kafka/url", "/api/kafka/produce", "/api/master/url",
@@ -29,8 +30,10 @@ function updateJPG(response) {
 
 
 http.createServer(function(req, res) {
-    console.log("got request");
-    res.on("close", ()=>{console.log("end request")})
+    if(DEBUG) console.log("got request");
+    if(DEBUG) res.on("close", ()=>{console.log("end request")})
+    if(DEBUG) req.on("error", (e)=>{console.log(e)})
+
 
     const reqPathString = new URL(req.url, `http://${req.headers.host}`).pathname
     let reqPath_ = reqPathString.split('/')
@@ -42,6 +45,7 @@ http.createServer(function(req, res) {
     if(!(reqMethod in VALID_PATHS ) || !VALID_PATHS[reqMethod].includes(reqPathString)){
         res.writeHead(404)
         res.end()
+        return;
     }
 
     if(reqMethod === "GET"){
@@ -89,7 +93,7 @@ http.createServer(function(req, res) {
         }
     }
 
-}).listen(8080);
+}).listen(5000);
 
 function erarc(response, url, data){ // End Response And Return Call
     return function (fun) { // bind function to call
