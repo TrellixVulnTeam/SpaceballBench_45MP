@@ -98,8 +98,10 @@ http.createServer(function(req, res) {
 function erarc(response, url, data){ // End Response And Return Call
     return function (fun) { // bind function to call
         return function () { // event handler
-            console.log(data.data, JSON.parse(data.data), typeof data.data, url, fun)
+            // console.log(data.data, JSON.parse(data.data), typeof data.data, url, fun)
+            // console.log(data)
             data = JSON.parse(data.data)["val"] // pass be reference ( primitives like string is pass by value)
+            // console.log(data)
             fun(url, data)
             response.end()
         }

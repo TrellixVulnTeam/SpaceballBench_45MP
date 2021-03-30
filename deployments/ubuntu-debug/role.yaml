@@ -1,0 +1,19 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: ubuntu-debug-role
+  namespace: default
+  labels:
+    app: ubuntu-debug
+rules:
+- apiGroups: [""]
+  resources:
+  - pods
+  verbs:
+  - create
+  - update
+  - patch
+  - delete
+  - get
+  - watch
+  - list

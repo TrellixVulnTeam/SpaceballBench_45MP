@@ -1,0 +1,12 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: drone-meta-controller-role-binding
+subjects:
+- kind: ServiceAccount
+  name: drone-meta-controller-service-account
+  namespace: default
+roleRef:
+  kind: Role
+  name: drone-meta-controller-role
+  apiGroup: rbac.authorization.k8s.io

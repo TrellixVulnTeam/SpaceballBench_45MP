@@ -2,30 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4079607a-c775-4b09-8ce1-62bb8194cccf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../flask_rx_tx_docker/docker-compose.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../flask_rx_tx_docker/flask_rx/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../flask_rx_tx_docker/flask_rx/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../flask_rx_tx_docker/flask_rx/server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../flask_rx_tx_docker/flask_tx/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../flask_rx_tx_docker/flask_tx/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../flask_rx_tx_docker/flask_tx/server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../flask_tst/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../flask_tst/docker-compose.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../flask_tst/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../flask_tst/server.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../deployments/ubuntu-debug/.idea/ubuntu-debug.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../deployments/ubuntu-debug/role.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../deployments/ubuntu-debug/roleBinding.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../deployments/ubuntu-debug/serviceAccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/.idea/docs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/deplDiagram.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/dew_depl.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/diagramLib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/droneSeqDiag.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drone-meta-controller/.idea/drone-meta-controller.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drone-meta-controller/libs/CreateDepl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drone-meta-controller/libs/DeplController.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drone-meta-controller/libs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drone-meta-controller/libs/deplManager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drone-meta-controller/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drone-meta-controller/server_tst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drone-meta-controller/server_tut_tst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drone-meta-controller/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/SpaceballBench.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/SpaceballBench.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deployments/drone/deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../deployments/drone/deploy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deployments/drone/nodePort.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../deployments/drone/nodePort.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deployments/drone/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../deployments/drone/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deployments/route-creator/deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../deployments/route-creator/deploy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deployments/route-creator/nodePort.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../deployments/route-creator/nodePort.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deployments/route-creator/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../deployments/route-creator/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deployments/ubuntu-debug/deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../deployments/ubuntu-debug/deploy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deployments/ubuntu-debug/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../deployments/ubuntu-debug/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base-ubuntu-gl/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../base-ubuntu-gl/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base-ubuntu-gl/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../base-ubuntu-gl/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/drone-three-render.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/drone-three-render.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imageHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/imageHelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kube_tst/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kube_tst/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kube_tst/.idea/kube_tst.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kube_tst/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kube_tst/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kube_tst/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../redis_tst/data/dump.rdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../redis_tst/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../redis_tst/redis.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/testing/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/http-mjpeg-stream.js" beforeDir="false" afterPath="$PROJECT_DIR$/testing/http-mjpeg-stream.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/http-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/testing/http-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/net-tcp-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/testing/net-tcp-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/testing/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/testing/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/test.ppm" beforeDir="false" afterPath="$PROJECT_DIR$/testing/test.ppm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vCamera.js" beforeDir="false" afterPath="$PROJECT_DIR$/vCamera.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vDroneHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/vDroneHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flask-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../flask-server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flask-server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../flask-server/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node-server/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/../node-server/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../node-server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node-server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../node-server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../node-server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node-server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../node-server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/flask_rx_tx_docker/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/flask_rx_tx_docker/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/flask_rx_tx_docker/flask_rx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/flask_rx_tx_docker/flask_rx/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/flask_rx_tx_docker/flask_rx/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/flask_rx_tx_docker/flask_rx/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/flask_rx_tx_docker/flask_rx/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/flask_rx_tx_docker/flask_rx/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/flask_rx_tx_docker/flask_tx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/flask_rx_tx_docker/flask_tx/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/flask_rx_tx_docker/flask_tx/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/flask_rx_tx_docker/flask_tx/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/flask_tst/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/flask_tst/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/flask_tst/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/flask_tst/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/flask_tst/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/flask_tst/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/kube_tst/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/kube_tst/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/kube_tst/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/kube_tst/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/kube_tst/.idea/kube_tst.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/kube_tst/.idea/kube_tst.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/kube_tst/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/kube_tst/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/kube_tst/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/kube_tst/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/kube_tst/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/kube_tst/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/kube_tst/nginx-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/kube_tst/nginx-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../testing/redis_tst/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../testing/redis_tst/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +143,9 @@
       <workItem from="1616257000345" duration="4896000" />
       <workItem from="1616325862998" duration="17544000" />
       <workItem from="1616391700926" duration="3383000" />
+      <workItem from="1616411730274" duration="630000" />
+      <workItem from="1617112769833" duration="32000" />
+      <workItem from="1617113708941" duration="638000" />
     </task>
     <servers />
   </component>

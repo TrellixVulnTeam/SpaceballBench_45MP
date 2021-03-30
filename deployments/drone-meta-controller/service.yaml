@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: drone-meta-controller-service
+  labels:
+    service: drone-meta-controller-service
+spec:
+  type:
+  selector:
+    app: drone-meta-controller
+  ports:
+  - port: 5000
+    targetPort: 5000

@@ -2,6 +2,7 @@ const THREE = await import("three"); // https://npmjs.com/package/three v0.124.0
 const fs = await import("fs");
 const gl = await import('gl')
 import {toP3, extractPixels, toJPG} from './imageHelper.js'
+import {Color} from "three";
 
 /*
     Virtual Camera
@@ -71,6 +72,14 @@ class vCamera {
     setTarget(location, orientation){
         this.targetLocation = location;
         this.targetOrientation = orientation;
+        this.moveToTarget()
+    }
+
+    moveToTarget(){
+        this.translateX(this.targetLocation.x)
+        this.translateY(this.targetLocation.y)
+        this.translateZ(this.targetLocation.z)
+        // console.log(this.targetLocation)
     }
 
     createRenderer(width, height){

@@ -11,7 +11,7 @@ class vDroneHandler{
             z: 0
         }
 
-        this.location = {
+        this.position = {
             x: 0,
             y: 0,
             z: 0
@@ -28,7 +28,7 @@ class vDroneHandler{
 
     getSensors(){
         return {
-            location: this.location,
+            position: this.position,
             orientation: this.orientation,
             luminosity: this.luminosity,
             speed: this.speed
@@ -36,23 +36,24 @@ class vDroneHandler{
     }
 
     translateZ(distance_units){
-        this.location.z += distance_units;
+        this.position.z += distance_units;
         this.vCamera.translateZ(distance_units)
     }
 
     translateX(distance_units){
-        this.location.x += distance_units;
+        this.position.x += distance_units;
         this.vCamera.translateX(distance_units)
     }
 
     translateY(distance_units){
-        this.location.y += distance_units;
+        this.position.y += distance_units;
         this.vCamera.translateY(distance_units)
     }
 
     move(type, axis, val){
+        // console.log(type, axis, val)
         this[type][axis] = val;
-        this.vCamera.setTarget(this.location, this.orientation);
+        this.vCamera.setTarget(this.position, this.orientation);
     }
 
     setSpeed(value){
