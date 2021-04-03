@@ -3,12 +3,13 @@ kind: Role
 metadata:
   name: ubuntu-debug-role
   namespace: default
-  labels:
-    app: ubuntu-debug
+#  labels:
+#    app: ubuntu-debug
 rules:
 - apiGroups: [""]
   resources:
   - pods
+  - deployments
   verbs:
   - create
   - update

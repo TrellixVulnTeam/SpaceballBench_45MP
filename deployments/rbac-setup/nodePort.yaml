@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: ub-node-port
+spec:
+  type: NodePort
+  ports:
+    - port: 5000
+  selector:
+    app: ubu

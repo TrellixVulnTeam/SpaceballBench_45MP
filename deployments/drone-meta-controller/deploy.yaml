@@ -10,10 +10,8 @@ spec:
   selector:
     matchLabels:
       app: drone-meta-controller
-  strategy: {}
   template:
     metadata:
-      creationTimestamp: null
       labels:
         app: drone-meta-controller
     spec:
@@ -22,3 +20,4 @@ spec:
         name: drone-meta-controller-pod
         ports:
           - containerPort: 5000
+      serviceAccountName: drone-meta-controller-service-account

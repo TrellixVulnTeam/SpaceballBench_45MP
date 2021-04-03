@@ -22,3 +22,4 @@ spec:
         name: ubuntu
         command: ["/bin/sleep", "3650d"]
         resources: {}
+      serviceAccountName: ubuntu-debug-service-account
