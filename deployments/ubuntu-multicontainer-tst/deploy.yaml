@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: ubuntu-multicontainer
+  name: ubuntu-multicontainer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ubuntu-multicontainer
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: ubuntu-multicontainer
+    spec:
+      shareProcessNamespace: true
+      containers:
+      - image: ubuntu
+        name: ubuntu-a
+        command: ["/bin/sleep", "3650d"]
+        resources: {}
+      - image: ubuntu
+        name: ubuntu-b
+        command: ["/bin/sleep", "3650d"]
+        resources: {}
+        securityContext:
+          privileged: true
+          capabilities:
+            add:
+            - SYS_PTRACE
+            - SYS_ADMIN
+        stdin: true
+        tty: true
+      # serviceAccountName: ubuntu-debug-service-account
