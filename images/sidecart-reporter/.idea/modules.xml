@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/sidecart-reporter.iml" filepath="$PROJECT_DIR$/.idea/sidecart-reporter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sidecart-reporter2.iml" filepath="$PROJECT_DIR$/.idea/sidecart-reporter2.iml" />
     </modules>
   </component>
 </project>
