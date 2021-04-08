@@ -1,0 +1,1 @@
+http://loki-stack.loki-stack:3100
