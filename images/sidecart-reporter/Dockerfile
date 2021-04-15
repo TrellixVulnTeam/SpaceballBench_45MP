@@ -13,3 +13,6 @@ FROM alpine
 # && PATH="$PATH" \
 # && exec bash \
 CMD ["/bin/sh"]
+
+# docker-compose build --no-cache
+# docker-compose up --force-recreate
