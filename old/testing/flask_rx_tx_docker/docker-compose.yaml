@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  flask_rx:
+    build:
+      context: ./flask_rx
+    ports:
+      - 5001:5001
+  flask_tx:
+    build:
+      context: ./flask_tx
+    ports:
+      - 5002:5002
+#    depends_on: flask_rx
+#networks:

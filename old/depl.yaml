@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: ubuntu-bionic-systemd-docker
+spec:
+    selector:
+        matchLabels:
+            app: ubuntu-bionic-systemd-docker
+    replicas: 1
+    template:
+        metadata:
+            labels:
+                app: ubuntu-bionic-systemd-docker
+        spec:
+            containers:
+            - name: ubuntu-bionic-systemd-docker
+              image: nestybox/ubuntu-bionic-systemd-docker
+              ports:
+                - containerPort: 5000

@@ -15,6 +15,7 @@ https://dl-cdn.alpinelinux.org/alpine/v3.13/community
 http://dl-cdn.alpinelinux.org/alpine/edge/community
 http://dl-cdn.alpinelinux.org/alpine/edge/testing' > /etc/apk/repositories 
 
+podman util-linux
 
 
 apk add --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/testing minikube
