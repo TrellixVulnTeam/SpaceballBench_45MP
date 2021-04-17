@@ -1,0 +1,102 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dew-master
+  labels:
+    app: dew-master
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dew-master
+  template:
+    metadata:
+      labels:
+        app: dew-master
+    spec:
+      containers:
+      - name: ceryx-api
+        image: sourcelair/ceryx-api:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 5555
+        env:
+        - name: CERYX_DEBUG
+          value: "true"
+        - name: CERYX_MAX_REQUEST_BODY_SIZE
+          value: "100m"
+        - name: CERYX_REDIS_HOST
+          value: "localhost"
+        - name: CERYX_REDIS_PORT
+          value: "6379"
+        - name: CERYX_REDIS_PREFIX
+          value: "6379"
+        - name: CERYX_REDIS_TIMEOUT
+          value: "100"
+        - name: CERYX_DNS_RESOLVER
+          value: "10.96.0.10"
+        - name: CERYX_API_HOST
+          value: "0.0.0.0"
+        - name: CERYX_API_PORT
+          value: "5555"
+
+      - name: ceryx-nginx
+        image: sourcelair/ceryx:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
+        - containerPort: 443
+        env:
+        - name: CERYX_DEBUG
+          value: "true"
+        - name: CERYX_MAX_REQUEST_BODY_SIZE
+          value: "100m"
+        - name: CERYX_REDIS_HOST
+          value: "localhost"
+        - name: CERYX_REDIS_PORT
+          value: "6379"
+        - name: CERYX_REDIS_PREFIX
+          value: "6379"
+        - name: CERYX_REDIS_TIMEOUT
+          value: "100"
+        - name: CERYX_DISABLE_LETS_ENCRYPT
+          value: "true"
+        - name: CERYX_SSL_DEFAULT_CERTIFICATE
+          value: /etc/ceryx/ssl/default.crt
+        - name: CERYX_SSL_DEFAULT_KEY
+          value: /etc/ceryx/ssl/default.key 
+        - name: CERYX_DNS_RESOLVER
+          value: "10.96.0.10"
+
+      - name: redis
+        image: redis:3.2.11-alpine
+        imagePullPolicy: IfNotPresent
+        args: ["--appendonly", "yes", "--save", "900", "1", "--save", "30", "2"]      
+        ports:
+          - containerPort: 6379
+            name: ceryx-redis
+        volumeMounts:
+          - name: ceryx-redis-volume
+            mountPath: /data
+
+      - image: ubuntu
+        name: ubuntu
+        command: ["/bin/sleep", "3650d"]
+    
+      volumes:
+        - name: ceryx-redis-volume
+          persistentVolumeClaim:
+            claimName: ceryx-redis-volume-claim
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: ceryx-redis-volume-claim
+  labels:
+    app: dew-master
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi

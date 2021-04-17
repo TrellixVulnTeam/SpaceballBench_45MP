@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "http-shutdown": "^1.2.2"
+  }
+}

@@ -12,3 +12,5 @@ visudo
 sudo pacman -S base-devel
 # for fakeroot
 
+
+

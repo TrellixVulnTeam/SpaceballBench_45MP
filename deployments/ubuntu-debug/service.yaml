@@ -8,3 +8,6 @@ spec:
   type:
   selector:
     app: ubuntu-debug
+  ports:
+  - port: 5000
+    targetPort: 5000
