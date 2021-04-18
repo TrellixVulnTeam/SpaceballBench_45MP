@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: ubuntu-debug-b
+  name: ubuntu-debug-b
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ubuntu-debug-b
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: ubuntu-debug-b
+    spec:
+      containers:
+      - image: ubuntu
+        name: ubuntu
+        command: ["/bin/sleep", "3650d"]
+        resources: {}
+        ports:
+        - containerPort: 5000
+      # serviceAccountName: ubuntu-debug-service-account

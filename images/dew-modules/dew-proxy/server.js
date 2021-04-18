@@ -118,8 +118,12 @@ http.createServer(function (req, res) {
 }).listen(5002);
 
 var proxy = httpProxy.createProxyServer({});
+proxy.on('error', (error,) => { console.log(error) });
 
 function ProxyHandler(req, res){
+
+    req.on('error', (error, l) => { console.log(error); l.res.end(); });
+
     let url = new URL(req.url, `http://${req.headers.host}`);
     let domain = url.hostname
     let port = url.port
@@ -148,22 +152,10 @@ function ProxyHandler(req, res){
 
     let hostname = RULES[id]
 
+    req.url = req.url.replace(`/${id}`, '')
+
     console.log(hostname, id, path, `http://${hostname}:${port}/${path}`)
 
-    proxy.web(req, res, { target: `http://${hostname}:${port}/${path}` });
+    try{ proxy.web(req, res, { target: `http://${hostname}:${port}` }); }
+    catch(e){ console.log(e); res.end();}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
